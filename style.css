@@ -1,0 +1,61 @@
+body{
+    margin: 0 auto;
+    max-width: 1280px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Images/Background.jpg);
+    background-position-x: left;
+    background-size: auto;
+    font-family: Apple Chancery, cursive;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black  ;
+}
+
+.header{
+text-align: center;
+}
+
+.header-title{
+    margin-top: 30px;
+    font-size: 50px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+}
+
+.header-subtitle{
+    margin-bottom: 10px;
+}
+
+.main-img-killua{
+    float: left;
+    width: 45%;
+    border: 1px solid black;
+    margin-right: 20px;
+    background-color: rgb(17, 17, 17);
+    border-radius: 50px;
+}
+
+.main-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-subtitle{
+    text-align: center;
+}
+
+.span{
+    font-weight: bold;
+}
+
+.information{
+    text-align: center;
+}
+
+.information a{
+    color: white;
+    text-decoration: underline;
+}
+
+.information a:hover{
+    color: rgb(160, 160, 160);
+}
